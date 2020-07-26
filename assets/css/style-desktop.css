@@ -1,0 +1,176 @@
+/* --- Classes Globais --- */
+main{
+    max-width: 989px;
+    width: 941px;
+    margin: 0 auto;
+}
+
+header, footer {
+    max-width: 989px;
+    width: 941px;
+    margin: 24px auto;
+}
+
+
+/* --- Cabeçalho --- */
+.secaoLogo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.secaoPesquisar {
+    height: 32px;
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    width: 200px;
+    display: flex;
+    overflow: hidden;
+}
+
+.secaoPesquisar input {
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:11px;
+    border:none;
+    height:32px;
+    width:156px;
+    outline: none;
+    font-size: 11px;
+}
+
+.secaoPesquisar a img {
+    float: left;
+    cursor: pointer;
+    height: 34px;
+    margin-top: -2px;
+}
+
+.secaoMenu {
+    
+    margin: 23px 0 10px 0;
+    width: 100%;
+}
+
+.btnMenu {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secaoMenu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 307px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #3d5057;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.secaoMenu li:hover {
+    color: #fff;
+    background-color: #667a82;
+}
+
+.secaoMenu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.secaoBanner {
+    position: relative;
+    width: 941px;
+    margin-bottom: 52px;
+}
+
+.secaoBanner img#desktop {
+    position: absolute;
+    top: 40px;
+    right: -20px;
+}
+
+
+/* --- Conteúdo --- */
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.box1,
+.box2 {
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    width: 458px;
+    padding: 20px;
+    color: #354348;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.box1 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box1 img {
+    float: right;
+    margin-left: 20px;
+}
+
+.box1 p {
+    padding: 10px 10px 0 0;
+}
+
+.box2 h1,
+.box1 h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box2 {
+    display: flex;
+}
+
+.box2 img {
+    margin-right: 30px;
+}
+
+.box2 ul {
+    list-style: outside;
+}
+
+.box2 li {
+    margin: 10px 10px;
+}
+
+/* --- Rodapé --- */
+footer {
+    background-color: #dddddd;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    color: #6a6565;
+    text-align: center;
+}
